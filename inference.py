@@ -227,7 +227,9 @@ def main(args):
             total_label += list(label)
 
         print('Num of protein %d' % len(val_file))
-        print('Atom Level F1_score %.3f' % f1_score(total_pred, total_label))
+        f1 = f1_score(total_pred, total_label)
+        if f1 > 0:
+            print('Atom Level F1_score %.3f' % f1)
 
 
 if __name__ == '__main__':
