@@ -41,8 +41,6 @@ source activate pointsite_inference
 python $home/inference.py --output $outdir --data $tmpdir --select_list $data
 source deactivate
 
-exit 0
-
 #----- remove tmp -----#
 rm -rf $tmpdir
 
