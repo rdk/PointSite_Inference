@@ -38,6 +38,12 @@ python inference.py --output blind_out --data example/blind --select_list exampl
 conda deactivate
 ```
 
+or, run below all-in-one script
+```
+./pointsite_run.sh example/blind_list example/blind blind_out `pwd`
+```
+
+
 ## Visualization
 You will get .obj file in output folder, please use [MeshLab](http://www.meshlab.net/) to visualize.
 ![predict](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/result.png)
