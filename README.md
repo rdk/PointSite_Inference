@@ -1,15 +1,13 @@
 # PointSite Inference Tool
 ## Setup
 
-Tested with CUDA 10.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anaconda.com/) and PyTorch 1.1.
+Tested with CUDA 10.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anaconda.com/) and PyTorch 1.1.0.
 
 ```
 # Install related library, e.g
 conda create --name pointsite python=3.6
 source activate pointsite
-conda install pytorch torchvision cudatoolkit=10.0 -c pytorch # See https://pytorch.org/get-started/locally/
-conda install google-sparsehash -c bioconda
-conda install -c anaconda pillow
+pip install torch==1.1.0 # See https://pytorch.org/get-started/locally/
 git clone https://github.com/PointSite/PointSite_Inference.git
 cd PointSite_Inference/
 bash develop.sh
