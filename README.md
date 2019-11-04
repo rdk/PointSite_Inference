@@ -33,7 +33,7 @@ python inference.py
 ```
 ## Visualization
 You will get .obj file in output folder, please use [MeshLab](http://www.meshlab.net/) to visualize.
-![predict](pic/result.png)
+![predict](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/result.png)
 
 ## Reference
 [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet/tree/master/)

@@ -8,6 +8,8 @@ conda activate pointsite_inference
 #-> 2. install related library
 pip install torch==1.1.0
 pip install torchvision==0.3.0
+conda install scikit-learn -y
+conda install tqdm -y
 conda install -c bioconda google-sparsehash -y
 conda install -c psi4 gcc-5 -y
 
