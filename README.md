@@ -16,24 +16,13 @@ rm -f ws1 ws2
 
 ## Setup
 
-<<<<<<< HEAD
 Tested with CUDA 9.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anaconda.com/) and PyTorch 1.1.
 
 ```
 ./install.sh
-=======
-Tested with CUDA 10.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anaconda.com/) and PyTorch 1.1.0.
 
 ```
-# Install related library, e.g
-conda create --name pointsite python=3.6
-source activate pointsite
-pip install torch==1.1.0 # See https://pytorch.org/get-started/locally/
-git clone https://github.com/PointSite/PointSite_Inference.git
-cd PointSite_Inference/
-bash develop.sh
->>>>>>> 0d7ef18330a7e1db1c81eb9cbc418869d1c7e945
-```
+
 ## Inference
  ```
 python inference.py 
