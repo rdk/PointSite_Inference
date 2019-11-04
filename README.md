@@ -38,7 +38,7 @@ python inference.py --output blind_out --data example/blind --select_list exampl
 conda deactivate
 ```
 
-or, run below all-in-one script
+Note tht the above input data (in '.XYZ' format) contain the ground-truth label of binding atoms. Run below script for identifying binding atoms on unlabeled data in '.PDB' files.
 ```
 ./pointsite_run.sh example/blind_list example/blind blind_out `pwd`
 ```
