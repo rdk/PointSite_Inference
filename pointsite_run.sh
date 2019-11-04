@@ -31,7 +31,7 @@ indir=`readlink -f $indir`
 #----- convert PDB to XYZ files ---#
 for i in `cat $data`
 do
-	$home/LIG_Tool/util/PDB_To_XYZ -i $indir/$i.pdb -a 1 -o $tmpdir/${i}_atom.xyz_
+	$home/LIG_Tool/util/PDB_To_XYZ -i $indir/$i.pdb -a 1 -o $tmpdir/${i}_atom.xyz
 done
 
 #----- run pointsite --------#
