@@ -23,7 +23,9 @@ Tested with CUDA 9.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anaconda
 
 ## Inference
  ```
+conda activate pointsite_inference
 python inference.py 
+conda deactivate
 --gpu: GPU index, if you have not GPU, just ignore it
 --output: output root (required)
 --data: data root, only support .xyz file (required)
