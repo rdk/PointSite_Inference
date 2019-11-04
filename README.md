@@ -20,7 +20,6 @@ Tested with CUDA 9.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anaconda
 
 ```
 ./install.sh
-
 ```
 
 ## Inference
