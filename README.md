@@ -5,12 +5,11 @@
 In order to run this inference tool properly, LIG_Tool must be installed.
 
 ```
-rmdir LIG_Tool 1>ws1 2>ws2
+rmdir LIG_Tool 2> /dev/null
 if [ ! -d "LIG_Tool" ]
 then
 	git clone https://github.com/realbigws/LIG_Tool
 fi
-rm -f ws1 ws2
 ```
 
 
