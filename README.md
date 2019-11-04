@@ -1,5 +1,6 @@
 # PointSite: a point cloud segmentation tool for identification of protein ligand binding atoms
-
+Created by [Zhen Li](https://github.com/icemansina),  [Xu Yan](https://github.com/yanx27) and [Sheng Wang](https://github.com/realbigws)
+![pipline](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/pipline.png)
 ## Preliminary
 
 In order to run this inference tool properly, LIG_Tool must be installed.
