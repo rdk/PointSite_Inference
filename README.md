@@ -40,5 +40,11 @@ Note that the above input data (in '.XYZ' format) contain the ground-truth label
 You will get .obj file in output folder, please use [MeshLab](http://www.meshlab.net/) to visualize.
 ![predict](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/result.png)
 
+
+## Training and Testing Data
+Users may find the training data [here](https://github.com/PointSite/PointSite_TrainData).
+Users may locate the testing data [here](https://github.com/PointSite/PointSite_TestData).
+
+
 ## Reference
 [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet/tree/master/)
