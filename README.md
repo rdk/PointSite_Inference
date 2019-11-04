@@ -23,15 +23,21 @@ Tested with CUDA 9.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anaconda
 
 ## Inference
  ```
-conda activate pointsite_inference
 python inference.py 
-conda deactivate
 --gpu: GPU index, if you have not GPU, just ignore it
 --output: output root (required)
 --data: data root, only support .xyz file (required)
 --select_list: TXT file for selected protein name, default None
 --num_vote: voting number in inference (default 25, larger number can archieve more stable and high performance)
 ```
+
+## Running example
+```
+conda activate pointsite_inference
+python inference.py --output blind_out --data example/blind --select_list example/blind_list
+conda deactivate
+```
+
 ## Visualization
 You will get .obj file in output folder, please use [MeshLab](http://www.meshlab.net/) to visualize.
 ![predict](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/result.png)
