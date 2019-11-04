@@ -16,7 +16,6 @@ rm -rf build/ dist/ sparseconvnet.egg-info sparseconvnet/SCN*.so
 python setup.py develop
 python setup_test.py
 rm -rf build/ dist/ sparseconvnet.egg-info sparseconvnet/SCN*.so
-rm -rf sparseconvnet/__pycache__
 
 #-> 4. deactivate
 conda deactivate
