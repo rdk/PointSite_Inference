@@ -1,4 +1,5 @@
-# PointSite
+# PointSite: a point cloud segmentation tool for
+identification of protein ligand binding atoms
 
 ## Preliminary
 
