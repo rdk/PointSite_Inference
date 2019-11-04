@@ -5,6 +5,8 @@ Tested with CUDA 10.0, Ubuntu 18.04, Python 3.6 with [Conda](https://www.anacond
 
 ```
 # Install related library, e.g
+conda create --name pointsite python=3.6
+source activate pointsite
 conda install pytorch torchvision cudatoolkit=10.0 -c pytorch # See https://pytorch.org/get-started/locally/
 conda install google-sparsehash -c bioconda
 conda install -c anaconda pillow
