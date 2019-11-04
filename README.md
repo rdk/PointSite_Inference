@@ -1,4 +1,4 @@
-# PointSite Inference Tool
+# PointSite
 
 ## Preliminary
 
