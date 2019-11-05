@@ -47,4 +47,5 @@ Users may locate the testing data [here](https://github.com/PointSite/PointSite_
 
 
 ## Reference
+3D Semantic Segmentation with Submanifold Sparse Convolutional Networks, CVPR 2018 
 [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet/tree/master/)
