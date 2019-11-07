@@ -1,4 +1,6 @@
 # PointSite: a point cloud segmentation tool for identification of protein ligand binding atoms
+This repository contains the author's implementation for the paper:<br>
+**PointSite: a point cloud segmentation tool for identification of protein ligand binding atoms** [[bioRxiv]](https://www.biorxiv.org/content/early/2019/11/05/831131.full.pdf)<br>
 Created by [Zhen Li](https://github.com/icemansina),  [Xu Yan](https://github.com/yanx27) and [Sheng Wang](https://github.com/realbigws)
 ![](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/pipline.png)
 
