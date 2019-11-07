@@ -40,7 +40,7 @@ Note that the above input data (in '.XYZ' format) contain the ground-truth label
 
 ## Visualization
 You will get .obj file in output folder, please use [MeshLab](http://www.meshlab.net/) to visualize.
-![predict](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/result.png)
+![](https://raw.githubusercontent.com/PointSite/PointSite_Inference/master/example/result.png)
 
 
 ## Training and Testing Data
