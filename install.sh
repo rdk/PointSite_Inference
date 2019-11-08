@@ -20,4 +20,4 @@ python util/setup_test.py
 rm -rf build/ dist/ sparseconvnet.egg-info 
 
 #-> 4. deactivate
-source deactivate
+source deactivate 2> /dev/null

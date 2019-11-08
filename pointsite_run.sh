@@ -37,7 +37,7 @@ done
 #----- run pointsite --------#
 source activate pointsite_inference
 python $home/inference.py --output $outdir --data $tmpdir --select_list $data
-source deactivate
+source deactivate 2> /dev/null
 
 #----- remove tmp -----#
 rm -rf $tmpdir
